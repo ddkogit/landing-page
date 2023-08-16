@@ -26,6 +26,14 @@ li{
     color: #f9faf8;
 }
 
+.infoheader{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 10px;
+}
+
 .action,button{
     background-color: #3882f6;
 }
@@ -71,6 +79,21 @@ ul{
     padding: 50px 10px;
     gap:10px;
 
-
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoimgtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+   
+}
+
+.infoimgtext>*>img{
+    max-width: 100px;
+}
