@@ -53,7 +53,7 @@ li{
 .header{
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
+    padding: 10px 100px 50px 100px;
 }
 
 .nav{
@@ -71,7 +71,7 @@ ul{
 
 .main{
     display: flex;
-    gap:50px;
+    gap:20px;
 }
 
 .left{
@@ -79,25 +79,37 @@ ul{
     flex-direction: column;
     align-items:left;
     padding: 50px 10px;
-    gap:10px;
+    gap:30px;
 
 }
 
 .information{
+    
     display: flex;
     flex-direction: column;
+    
+    margin: 10px 250px;
+   
 }
 
 .infoimgtext{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin: 50px;
+    flex:1;
    
 }
 
 .infoimgtext>*>img{
-    max-width: 100px;
+    max-width:150px;
+    
+}
+.infoimgtext>*>.infotext{
+    max-width: 150px;
+    text-align: center;
+
 }
 
 .quote{
@@ -139,4 +151,14 @@ ul{
     font-size: 18px;
     text-align: center;
     padding: 5px;
+   
+}
+
+button{
+    color: #f9faf8;
+    padding: 5px 10px;
+    border: 2px solid wheat;
+    
+    border-radius: 10px;
+
 }
