@@ -103,10 +103,33 @@ ul{
 .quote{
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    padding: 50px 200px;
     
 }
 
 .quoteauth{
    text-align: right;
+}
+
+.action{
+    margin: 50px 100px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+
+}
+
+.actionmain{
+    font-size: 36px;
+    font-weight: 900;
+    color: #f9faf8;
+   
+}
+
+.actionsub{
+    font-size: 24px;
+    color: #e5e7eb;
 }
