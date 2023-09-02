@@ -1,2 +1,3 @@
 # landing-page
-Landing page for flexbox project in theodin project
+
+[Visit Website](https://ddkogit.github.io/landing-page/)
